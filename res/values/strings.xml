@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quizmoo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ForgetPassword">Forgot your password ?</string>
+    <string name="BtnLogin">Login</string>
+    <string name="TxtUserNameHint">UserName</string>
+    <string name="TxtPasswordHint">Password</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="tryConnection">Cheking Internet Connection State #8230</string>
+    <string name="loggingin">Server Logging In #8230</string>
+    <string name="offlineLogin">Trying offline mode #8230</string>
+    <string name="offlinefailure">Sorry, You may have never connected from this device</string>
+    <string name="onlineFailure">Sorry, check your login informations !</string>
+    <string name="savingofflineprofile">Saving new user offline profile #8230</string>
+    <string name="checkBoxSync">Synchronise my account</string>
+    <string name="alertPositiveAnswer">Yes</string>
+    <string name="alertNegativeAnswer">No</string>
+    <string name="logout">Logout</string>
+    <string name="logoutMsg">You are about to logout. Confirm ?</string>
+	<string name="fill_in">Fill in the blank</string>
+    <string-array name="category">
+        <item>All</item>
+        <item>Customer Feedback</item>
+        <item>Humain Ressources</item>
+        <item>Market Research</item>
+        <item>Social and Political</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="state">
+        <item>ongoing</item>
+        <item>closed</item>
+        <item>draft</item>
+    </string-array>
+
+    <string name="title_activity_questionnaires">Questionnaires</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="Sync">Synchronise</string>
+    <string name="filter">Filter</string>
+    <string name="save">Save</string>
+    <string name="submit_answer">Submit Answers</string>
+    <string name="share">Share</string>
+    <string name="close">Close</string>
+    <string name="delete">Delete</string>
+    <string name="reset">Reset</string>
+    <string name="empty_questionnaire">This survey contain no questions</string>
+    <string name="write_answer_txt">Write your answer here</string>
+    <string name="comment_here">Write your comment here</string>
+
+</resources>

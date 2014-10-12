@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtapptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/layout_log_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/TxtUserName"
+            style="@style/Widget.myEditText"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_top"
+            android:hint="@string/TxtUserNameHint"
+            android:text="ami90" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/TxtPassword"
+            style="@style/Widget.myEditText"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_top"
+            android:hint="@string/TxtPasswordHint"
+            android:inputType="textPassword"
+            android:text="GAtME9P6xmAjz" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_top"
+            android:text="@string/checkBoxSync"
+            android:checked="true" />
+
+        <Button
+            android:id="@+id/BtnLogin"
+            style="@style/Widget.BlueButton"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_weight="1"
+            android:text="@string/BtnLogin" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/LoadingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/LabelFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

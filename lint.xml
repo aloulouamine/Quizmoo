@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src/disycs/quizmo/QuestionnairesActivity.java" />
+    </issue>
+    <issue id="InlinedApi">
+        <ignore path="src/disycs/quizmo/navdrawer/QuestionRatingScaleFragment.java" />
+    </issue>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src/disycs/model/QuestionFactory.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/discys/API/HttpProxy.java" />
+        <ignore path="src/disycs/model/MySQLiteHelper.java" />
+        <ignore path="src/disycs/quizmo/QuestionnaireAdapter.java" />
+    </issue>
+</lint>
